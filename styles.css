@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(30deg,#0767ee, #f65ae1);
+  text-align: center;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.flashcard, .quiz, .add-form {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 80%;
+}
+
+/* Mobile responsive */
+@media (max-width: 500px) {
+  .app-container {
+    padding: 10px;
+  }
+  .flashcard, .quiz, .add-form {
+    width: 90%;
+    padding: 13px;
+  }
+  input {
+    width: 90%;
+  }
+}
